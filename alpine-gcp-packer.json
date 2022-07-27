@@ -49,8 +49,7 @@
         "grub-mkconfig -o  /boot/grub/grub.cfg",
         "cp /tmp/config/inittab /etc/inittab",
         "cp /tmp/config/sshd_config /etc/ssh/sshd_config",
-        "rm -f /etc/ssh/ssh_host*",
-        "/tmp/scripts/generate_motd.sh > /etc/motd"
+        "rm -f /etc/ssh/ssh_host*"
       ],
       "type": "shell"
     }
